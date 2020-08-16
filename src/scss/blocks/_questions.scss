@@ -1,0 +1,66 @@
+.questions{
+    min-height: 438px;
+    padding: 62px 0 79px 0;
+    background: url('../../img/bg/fly_bg.jpg') center (center/cover) no-repeat;
+    &__items{
+        display: block;
+        margin: 0 auto;
+        width: 896px;
+        height: 297px;
+        background-color: rgba($color: #ffffff, $alpha: 0.7);
+    }
+    &__header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 896px;
+        height: 68px;
+        background-color: #25333c;
+    }
+    &__title{
+        margin-top: 16px;
+        line-height: 1;
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__subtitle{
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    &__form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 18px;
+        input{
+            width: 268px;
+            height: 45px;
+            border: 1px solid rgba(0, 0, 0, 0.21);
+            border-radius: 30px;
+            padding-left: 24px;
+            margin: 0 3px;
+            color: #101010;
+            font-size: 13px;
+            font-weight: 300;
+        }
+        textarea{
+            margin-top: 8px;
+            margin-bottom: 17px;
+            width: 813px;
+            height: 71px;
+            border: 1px solid rgba(0, 0, 0, 0.21);
+            background-color: #ffffff;
+            border-radius: 5px;
+            resize: none;
+            color: #616467;
+            font-size: 13px;
+            font-weight: 300;
+            padding: 14px 0 0 25px;
+        }
+    }
+}

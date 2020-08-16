@@ -1,5 +1,6 @@
 @import'libs/bootstrap-reboot.min';
 @import'libs/font';
+@import'libs/slick';
 @import'blocks/header';
 @import'blocks/promo';
 @import'blocks/buttons';
@@ -14,6 +15,9 @@
 @import'blocks/round';
 @import'blocks/managers';
 @import'blocks/schema';
+@import'blocks/reviews';
+@import'blocks/questions';
+@import'blocks/map';
 @import'base/variables';
 
 *{
