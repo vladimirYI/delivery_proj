@@ -8,9 +8,34 @@
         bottom: 224px;
         left: 555px;
     }
-    &__text{
+    &__window{
         position: absolute;
         bottom: 184px;
         left: 625px;
+    }
+    &__text{
+        position: absolute;
+        bottom: 215px;
+        left: 680px;
+        width: 237px;
+        height: 103px;
+    }
+    &__header{
+        
+        color: #ec644b;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &__descr{
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__link{
+        color: #ec644b;
+        font-weight: 300;
+        &:hover{
+            color: #ec644b;
+        }
     }
 }

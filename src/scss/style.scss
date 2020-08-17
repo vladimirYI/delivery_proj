@@ -1,6 +1,10 @@
 @import'libs/bootstrap-reboot.min';
 @import'libs/font';
 @import'libs/slick';
+
+@import'base/variables';
+@import'base/media';
+
 @import'blocks/header';
 @import'blocks/promo';
 @import'blocks/buttons';
@@ -18,7 +22,8 @@
 @import'blocks/reviews';
 @import'blocks/questions';
 @import'blocks/map';
-@import'base/variables';
+@import'blocks/footer';
+@import'blocks/basement';
 
 *{
     font-family: 'Roboto', sans-serif;

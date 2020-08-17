@@ -1,0 +1,43 @@
+.basement{
+    min-height: 201px;
+    background-color: #25333c;
+    padding: 24px 0 28px;
+    &__divider{
+        display: block;
+        margin: 0 auto;
+        margin-top: 26px;
+        width: 1171px;
+        height: 1px;
+        background-color: rgba($color: #667076, $alpha: 0.7);
+    }
+    &__text{
+        margin-top: 19px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__year{
+        color: rgba($color: #ffffff, $alpha: 0.6);
+        font-size: 13px;
+        font-weight: 300;
+    }
+    &__link{
+        color: #ec644b;
+        font-size: 13px;
+        font-weight: 300;
+        text-decoration: underline;
+        &:hover{
+            color: #ec644b;
+        }
+    }
+    &__descr{
+        display: flex;
+        align-items: center;
+    }
+    &__title{
+        color: rgba($color: #ffffff, $alpha: 0.6);
+        font-size: 13px;
+        font-weight: 300;
+        margin-right: 10px;
+    }
+}
