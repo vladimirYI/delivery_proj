@@ -33,10 +33,21 @@
             font-size: 14px;
         }
     }
+    .advantages{
+        &__item{
+            width: 390px;
+        }
+        &__items{
+            padding: 0 40px;
+        }
+    }
 }
 
 
 @media (max-width: 991px){
+    .title{
+        font-size: 22px;
+    }
     .header{
         &__contacts{
             display: none;
@@ -65,10 +76,22 @@
             
         }
     }
+    .advantages{
+        padding: 48px 0 41px 0;
+        &__item{
+            width: 290px;
+        }
+        &__items{
+            padding: 0 40px;
+        }
+    }
 
 }
 
 @media (max-width: 767px){
+    .title{
+        font-size: 20px;
+    }
     .promo{
         h3{
             font-size: 18px;
@@ -84,6 +107,10 @@
         }
         &__items{
             flex-wrap: wrap;
+            width: 600px;
+            margin: 0 auto;
+            margin-bottom: 25px;
+            margin-top: 27px;
         }
         &__item{
             margin-bottom: 20px;
@@ -148,9 +175,28 @@
             }
        } 
    }
+   .advantages{
+    padding: 48px 0 21px 0;
+        &__item{
+            width: 450px;
+            margin-bottom: 20px;
+            
+        }
+        &__items{
+            justify-content: center;
+            margin-top: 25px;
+            :nth-child(n+3){
+                margin-top: 0;
+            }
+
+    }
+}
 }
 
 @media (max-width: 575px){
+    .title{
+        font-size: 18px;
+    }
     .promo{
         padding: 22px 10px 22px 10px;
         h3{
@@ -169,6 +215,7 @@
             flex-wrap: wrap;
             justify-content: center;
             margin-bottom: 15px;
+            width: 300px;
         }
         &__item{
             margin-bottom: 20px;
@@ -189,6 +236,12 @@
         display: block;
         position: absolute;
         right: 20px;
+    }
+    .advantages{
+        &__items{
+            padding: 0px 15px;
+        }
+        
     }
         
 }
