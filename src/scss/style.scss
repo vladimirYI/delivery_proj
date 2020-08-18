@@ -2,9 +2,6 @@
 @import'libs/font';
 @import'libs/slick';
 
-@import'base/variables';
-@import'base/media';
-
 @import'blocks/header';
 @import'blocks/promo';
 @import'blocks/buttons';
@@ -25,6 +22,8 @@
 @import'blocks/footer';
 @import'blocks/basement';
 
+@import'base/variables';
+@import'base/media';
 *{
     font-family: 'Roboto', sans-serif;
 }
