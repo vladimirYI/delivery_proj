@@ -79,6 +79,11 @@
             width: 215px;
         }
     }
+    .consultation{
+        &__form{
+            width: 950px;
+        }
+    }
 }
 
 
@@ -146,6 +151,20 @@
         }
         &__item{
             margin:34px 20px 0 20px;
+        }
+    }
+    .consultation{
+        &__form{
+            width: 726px;
+        }
+        &__header{
+            font-size: 24px;
+        }
+        &__round{
+            margin-top: 12px;
+        }
+        .button_consult{
+            margin-top: 245px;
         }
     }
 }
@@ -292,6 +311,20 @@
             padding: 0;
         }
     }
+    .consultation{
+        &__form{
+            width: 534px;
+            height: 295px;
+            flex-direction: column;
+        }
+        &__header{
+            font-size: 22px;
+        }
+        .button_consult{
+            margin-top: 370px;
+        }
+    }
+    
 }
 
 @media (max-width: 575px){
@@ -361,6 +394,21 @@
     .price{
         &__descr{
             font-size: 14px;
+        }
+    }
+    .consultation{
+        &__form{
+            width: 278px;
+        }
+        &__header{
+            font-size: 22px;
+            width: 320px;
+        }
+        &__round{
+            margin-top: 42px;
+        }
+        .button_consult{
+            margin-top: 404px
         }
     }  
 }
