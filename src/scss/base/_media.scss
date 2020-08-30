@@ -84,7 +84,23 @@
             width: 950px;
         }
     }
+    .managers{
+        &__descr{
+            padding: 0 40px;
+            width: 100%;
+        }
+    }
+    .reviews{
+        .slick-prev{
+            left: 400px;
+        }
+        .slick-next{
+            right: 400px;
+        }
+        
+    }
 }
+
 
 
 @media (max-width: 991px){
@@ -165,6 +181,21 @@
         }
         .button_consult{
             margin-top: 245px;
+        }
+    }
+    .reviews{
+        padding: 51px 40px 51px 40px;
+        &__descr{
+            font-size: 19px;
+        }
+        &__text{
+            width: 100%;
+        }
+        .slick-prev{
+            left: 250px;
+        }
+        .slick-next{
+            right: 250px;
         }
     }
 }
@@ -324,7 +355,26 @@
             margin-top: 370px;
         }
     }
-    
+    .managers{
+        padding: 58px 0 55px 0;
+        &__descr{
+            padding: 0 30px;
+            margin-top: 15px;
+            width: 100%;
+            font-size: 18px;
+        }
+    }
+    .reviews{
+        &__descr{
+            font-size: 18px;
+        }
+        .slick-prev{
+            left: 150px;
+        }
+        .slick-next{
+            right: 150px;
+        }
+    }
 }
 
 @media (max-width: 575px){
@@ -409,6 +459,25 @@
         }
         .button_consult{
             margin-top: 404px
+        }
+    }
+    .managers{
+        &__descr{
+            font-size: 14px;
+        }
+    }
+    .reviews{
+        &__descr{
+            font-size: 14px;
+        }
+        .slick-prev{
+            left: 30px;
+        }
+        .slick-next{
+            right: 30px;
+        }
+        &__text{
+            font-size: 13px;
         }
     }  
 }

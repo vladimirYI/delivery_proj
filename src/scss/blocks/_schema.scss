@@ -5,26 +5,26 @@
     &__items{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        margin-top: 29px;
-        &-bottom{
+        justify-content: center;
+        /* &-bottom{
             display: flex;
             justify-content: center;
             margin-top: 26px;
-        }
+        } */
     }
     &__item{
         display: flex;
         align-items: center;
         flex-direction: column;
         max-width: 257px;
-        &-bottom{
+        margin: 30px 14px 0 14px;
+        /* &-bottom{
             display: flex;
             align-items: center;
             flex-direction: column;
             max-width: 257px;
             margin: 0 25px;
-        }
+        }  */ 
     }
     &__text{
         text-align: center;
